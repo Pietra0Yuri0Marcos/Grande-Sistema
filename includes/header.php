@@ -5,7 +5,7 @@
             <a href="/index.php">Início</a>
             <a href="/app/create.php">Cadastrar</a>
             <a href="/app/delete.php">Excluir</a>
-            <a href="/app/select.php">Relatório</a>
+            <a href="/app/select.php">Filmes</a>
             <a href="/app/select_w.php">Pesquisar</a>
             <a href="/app/update.php">Atualizar</a>
         </div>

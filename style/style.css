@@ -26,7 +26,11 @@ header a {
 header a:hover {
     color: #e50914;
 }
-
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 h1 {
     text-align: center;
