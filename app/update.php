@@ -44,7 +44,7 @@ require_once __DIR__ . '/../login/verifica_user.php';
         <br><br>
 
         <label for="nota">Nota:</label>
-        <input type="number" name="nota" id="nota">
+        <input type="number" name="nota" id="nota" min="0" max="10" step="0.1">
         <br><br>
 
         <input type="reset" value="Limpar">

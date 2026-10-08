@@ -37,6 +37,9 @@ h1 {
     color: #ffffff;
 }
 
+body {
+    text-align: center;
+}
 
 form {
     width: 90%;
