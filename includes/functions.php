@@ -159,9 +159,14 @@ function cadastrar_user($conexao, $email, $senha)
     $stmt->bindParam(":email", $email);
     $stmt->bindParam(":senha", $senha_hash);
 
-    $stmt->execute();
+    if ($stmt->execute()) {
+        header("Location: /index.php");
+        exit;
+    } else {
+        echo "Erro ao cadastrar usuário.";
+    };
 
-    echo "Usuário cadastrado com sucesso!";
+    
 }
 
 ////////////////////////////
