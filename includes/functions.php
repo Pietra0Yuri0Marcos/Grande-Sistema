@@ -58,20 +58,23 @@ function relatorio_filmes($conexao)
 
 function excluir_filme($conexao, $id)
 {
-    $sql = "DELETE FROM filmes WHERE id = :id";
 
-    $stmt = $conexao->prepare($sql);
+    $sql_votos = "DELETE FROM votos WHERE filme_id = :id";
 
-    $stmt->bindParam(":id", $id);
+    $stmt_votos = $conexao->prepare($sql_votos);
+    $stmt_votos->bindParam(":id", $id);
+    $stmt_votos->execute();
 
-    if ($stmt->execute()) {
+    $sql_filme = "DELETE FROM filmes WHERE id = :id";
+
+    $stmt_filme = $conexao->prepare($sql_filme);
+    $stmt_filme->bindParam(":id", $id);
+    $stmt_filme->execute();
+
     echo "Filme $id deletado com sucesso.";
-    } else {
-        echo "Erro ao excluir o filme.";
-    }
 }
 
-/////////////////////
+//////////////
 
 function consultar_filme($conexao, $id)
 {
