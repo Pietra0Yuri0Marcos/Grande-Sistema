@@ -293,7 +293,7 @@ Caso o módulo de login esteja implementado, devem ser testados:
 
 ---
 
-## 🐙 Repositório - Github 🐙
+## Repositório - Github 
 
 O código-fonte do projeto está disponível no GitHub:
 
