@@ -295,20 +295,6 @@ Caso o módulo de login esteja implementado, devem ser testados:
 
 ---
 
-## Segurança e Boas Práticas
-
-Durante o desenvolvimento e a manutenção do sistema, algumas práticas são importantes para preservar a integridade da aplicação.
-
-- **Validação de dados:** verificar as informações recebidas dos formulários antes de utilizá-las.
-- **Consultas seguras:** utilizar consultas preparadas para evitar SQL Injection quando houver acesso ao banco de dados.
-- **Proteção de senhas:** armazenar senhas utilizando algoritmos de hash apropriados, em vez de texto puro.
-- **Controle de acesso:** verificar a autenticação no servidor antes de permitir o acesso a páginas restritas.
-- **Proteção de credenciais:** evitar publicar senhas, tokens ou outras informações confidenciais no GitHub.
-- **Organização do código:** manter os arquivos separados conforme suas responsabilidades para facilitar futuras alterações.
-- **Manutenção:** atualizar a documentação sempre que a estrutura ou as funcionalidades forem modificadas.
-
----
-
 ## Repositório
 
 O código-fonte do projeto está disponível no GitHub:
