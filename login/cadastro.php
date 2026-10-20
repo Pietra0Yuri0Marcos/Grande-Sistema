@@ -34,6 +34,6 @@ require_once __DIR__ . '/../includes/functions.php';
     }
     ?>
 
-    <a href="/grandesistema/login.php">Voltar para o login</a>
+    <a href="/login.php">Voltar para o login</a>
 </body>
 </html>
