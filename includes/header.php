@@ -10,8 +10,8 @@
             <a href="/grandesistema/app/update.php">Atualizar</a>
         </div>
         <div>
-            <a href="/login/login.php">Entrar</a>
-            <a href="/login/logout.php">Sair</a>
+            <a href="/grandesistema/login/login.php">Entrar</a>
+            <a href="/grandesistema/login/logout.php">Sair</a>
         </div>
     </nav>
 </header>
