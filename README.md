@@ -209,7 +209,7 @@ CREATE DATABASE grandesistema OWNER sistema;
 Com o PostgreSQL instalado e um banco de destino criado, o backup em formato SQL puro pode ser importado utilizando:
 
 ```bash
-psql -h localhost -U postgres -d grandesistema -f database/dump.sql
+psql -h localhost -U sistema -d grandesistema -f database/dump.sql
 ```
 
 O banco de destino deve estar preparado para receber os dados. A restauração pode apresentar conflitos se as tabelas já existirem ou se o conteúdo do dump depender de permissões e configurações específicas.
