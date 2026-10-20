@@ -1,4 +1,4 @@
-# LaMovies — Sistema de Gerenciamento de Filmes
+# Projeto Integrador - LaMovies
 
 ## Visão Geral do Projeto
 
