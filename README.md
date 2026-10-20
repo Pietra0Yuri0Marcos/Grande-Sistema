@@ -1,6 +1,6 @@
-# Projeto Integrador - LaMovies
+# 🖥 Projeto Integrador - LaMovies 🖥
 
-## Visão Geral do Projeto
+## 🗒 Visão Geral do Projeto 🗒
 
 ### Objetivo
 
@@ -27,7 +27,7 @@ O projeto foi organizado em diretórios específicos, separando as operações p
 
 ---
 
-## Estrutura do Projeto
+## 📁 Estrutura do Projeto 📁
 
 ```text
 Grande-Sistema/
@@ -76,7 +76,7 @@ Grande-Sistema/
 
 ---
 
-## Funcionalidades do Sistema
+## ⚙️ Funcionalidades do Sistema ⚙️
 
 O LaMovies permite organizar informações sobre filmes e disponibiliza recursos de consulta e gerenciamento dos registros.
 
@@ -124,7 +124,7 @@ O módulo de autenticação permite cadastrar usuários e controlar o acesso às
 
 ---
 
-## Banco de Dados
+## 🗄 Banco de Dados 🗄
 
 O sistema utiliza o **PostgreSQL** como sistema gerenciador de banco de dados, enquanto o PDO é utilizado para realizar a comunicação entre o PHP e o banco.
 
@@ -153,7 +153,7 @@ O banco de dados contempla os registros relacionados aos filmes, aos usuários e
 
 ---
 
-## Dump e Backup do Banco de Dados
+## 💾 Dump e Backup do Banco de Dados 💾
 
 O dump é uma exportação lógica do banco de dados que pode conter a estrutura das tabelas e os dados armazenados. No LaMovies, o arquivo `database/dump.sql` pode ser utilizado para auxiliar na restauração do banco em outro ambiente.
 
@@ -214,11 +214,9 @@ psql -h localhost -U postgres -d grandesistema -f database/dump.sql
 
 O banco de destino deve estar preparado para receber os dados. A restauração pode apresentar conflitos se as tabelas já existirem ou se o conteúdo do dump depender de permissões e configurações específicas.
 
-**Importante:** os comandos acima utilizam `localhost` e o usuário `postgres` como exemplos. Ajuste os parâmetros de acordo com a configuração real do ambiente. Evite substituir um banco que contenha dados importantes sem realizar um backup prévio.
-
 ---
 
-## Como Executar o Projeto
+## ▶️ Como Executar o Projeto ▶️
 
 ### Pré-requisitos
 
@@ -264,7 +262,7 @@ O servidor embutido do PHP é apropriado para desenvolvimento e testes locais. P
 
 ---
 
-## Testes e Verificação
+## ✔️ Testes e Verificação ✔️
 
 Após iniciar a aplicação, é importante verificar se os principais recursos estão funcionando corretamente.
 
@@ -295,7 +293,7 @@ Caso o módulo de login esteja implementado, devem ser testados:
 
 ---
 
-## Repositório
+## 🐙 Repositório - Github 🐙
 
 O código-fonte do projeto está disponível no GitHub:
 
