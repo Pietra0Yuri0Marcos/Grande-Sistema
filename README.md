@@ -189,6 +189,21 @@ Para localizar instruções de criação de tabelas no arquivo SQL, utilize:
 grep -n "CREATE TABLE" database/dump.sql
 ```
 
+###  Criar usuario e banco de dados
+
+Acesse o terminal do postgreSQL como administrador:
+
+```sql
+sudo -u postgres psql
+```
+
+Execute o comandos:
+
+```bash
+CREATE USER sistema WITH PASSWORD '1234';
+CREATE DATABASE grandesistema OWNER sistema;
+```
+
 ### Restaurando o Banco de Dados
 
 Com o PostgreSQL instalado e um banco de destino criado, o backup em formato SQL puro pode ser importado utilizando:
