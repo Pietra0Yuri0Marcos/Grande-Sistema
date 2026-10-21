@@ -4,9 +4,9 @@
 
 ### Objetivo
 
-O **LaMovies** é uma aplicação web desenvolvida como parte de um Projeto Integrador, com a finalidade de facilitar a consulta e o gerenciamento de informações sobre filmes.
+O **LaMovies** é uma aplicação web desenvolvida com a finalidade de facilitar a consulta e o gerenciamento de informações sobre filmes.
 
-O sistema utiliza PHP no processamento das requisições, HTML5 na estruturação das páginas e CSS3 na apresentação visual. Para armazenar e manipular os dados, utiliza o PostgreSQL, com acesso ao banco realizado por meio do PDO.
+O sistema utiliza PHP no processamento das requisições e HTML na estruturação das páginas. Para armazenar e manipular os dados, utiliza o PostgreSQL, com acesso ao banco realizado por meio do PDO.
 
 Entre os recursos disponíveis estão o cadastro, a consulta, a edição e a exclusão de filmes, além da pesquisa por título e de um sistema de votação que permite registrar likes e dislikes. A aplicação também possui um módulo de autenticação para cadastro e acesso de usuários.
 
@@ -21,7 +21,6 @@ O projeto foi organizado em diretórios específicos, separando as operações p
 | Banco de dados | PostgreSQL |
 | Acesso aos dados | PDO (PHP Data Objects) |
 | Driver do banco | PDO_PGSQL |
-| Servidor web | Servidor de desenvolvimento do PHP ou ambiente compatível |
 | Controle de versão | Git e GitHub |
 | Editor de código | Visual Studio Code |
 
@@ -71,8 +70,8 @@ Grande-Sistema/
 - **includes/functions.php**: concentra funções utilizadas na execução das operações do sistema.
 - **login/**: contém os arquivos responsáveis pelo cadastro de usuários, login, logout e verificação de autenticação.
 - **style/**: armazena a folha de estilos CSS responsável pela aparência da aplicação.
-- **index.php**: corresponde à página inicial e ao ponto de entrada da aplicação.
-- **README.md**: apresenta a documentação técnica e as instruções de utilização do projeto.
+- **index.php**: é a página inicial e ao ponto de entrada da aplicação.
+- **README.md**: apresenta a documentação técnica do projeto.
 
 ---
 
@@ -103,7 +102,7 @@ O CRUD corresponde às quatro operações básicas de manipulação de dados: Cr
 | Read | `app/select.php` | Consulta e apresenta a lista de filmes cadastrados, com recursos de votação. |
 | Read específico | `app/select_w.php` | Permite pesquisar filmes pelo título e consultar informações relacionadas aos votos. |
 | Update | `app/update.php` | Atualiza os dados de um filme selecionado por seu identificador. |
-| Delete | `app/delete.php` | Exclui o filme selecionado e remove os votos associados a ele. |
+| Delete | `app/delete.php` | Exclui o filme selecionado. |
 
 ### Sistema de Votação
 
@@ -141,7 +140,7 @@ O arquivo `database/connect.php` contém a configuração responsável por estab
 | Arquivo de conexão | `database/connect.php` |
 | Arquivo de backup | `database/dump.sql` |
 
-### Principais Tabelas
+### Tabelas
 
 O banco de dados contempla os registros relacionados aos filmes, aos usuários e às votações realizadas na aplicação.
 
