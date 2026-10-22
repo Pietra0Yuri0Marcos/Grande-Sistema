@@ -233,8 +233,8 @@ Antes de iniciar a aplicação, verifique se o ambiente possui:
 Abra o terminal e execute os comandos:
 
 ```bash
-git clone https://github.com/Pietra0Yuri0Marcos/Grande-Sistema.git
-cd Grande-Sistema
+git clone https://github.com/Pietra0Yuri0Marcos/grandesistema.git
+cd grandesistema
 ```
 
 ### Configurando o Banco de Dados
