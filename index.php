@@ -13,6 +13,8 @@
 
     <p>Bem-vindo ao sistema de gerenciamento de filmes.</p>
     
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS07Eal9Q1xo1KweFNR62jYeJgpWy5tVjp8GvQyyHvGJA&s=10" alt="Imagem legal" width="250">
+
     <br>
 
     <h2>O que você pode fazer?</h2>
