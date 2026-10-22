@@ -13,6 +13,22 @@
 
     <p>Bem-vindo ao sistema de gerenciamento de filmes.</p>
 
+    <h2>O que você pode fazer?</h2>
+
+    <ul>
+    <li>Cadastrar e consultar filmes.</li>
+    <li>Pesquisar filmes pelo título.</li>
+    <li>Editar e excluir filmes.</li>
+    <li>Avaliar filmes com likes e dislikes.</li>
+    </ul>
+
+    <h2>Como começar a usar?</h2>
+
+    <ol>
+    <li>Crie sua conta para se cadastrar no sistema.</li>
+    <li>Faça login para acessar e utilizar as funcionalidades do site.</li>
+    </ol>
+
     <?php include __DIR__ . '/includes/footer.php'; ?>
 </body>
 </html>
