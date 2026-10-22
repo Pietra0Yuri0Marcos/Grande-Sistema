@@ -163,7 +163,7 @@ function cadastrar_user($conexao, $email, $senha)
     $stmt->bindParam(":senha", $senha_hash);
 
     if ($stmt->execute()) {
-        header("Location: /index.php");
+        header("Location: /grandesistema/index.php");
         exit;
     } else {
         echo "Erro ao cadastrar usuário.";
