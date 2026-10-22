@@ -12,6 +12,8 @@
     <h1>Catálogo de Filmes</h1>
 
     <p>Bem-vindo ao sistema de gerenciamento de filmes.</p>
+    
+    <br>
 
     <h2>O que você pode fazer?</h2>
 
@@ -21,6 +23,8 @@
     <li>Editar e excluir filmes.</li>
     <li>Avaliar filmes com likes e dislikes.</li>
     </ul>
+
+    <br>
 
     <h2>Como começar a usar?</h2>
 
